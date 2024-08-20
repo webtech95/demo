@@ -1,0 +1,72 @@
+#poster{background-image: url(images/beautiful-japanese-forest-scene.jpg);
+height: 600px;
+text-align: center;
+
+background-size: cover;
+}
+
+.focus{
+    background-color: rgba(0, 0,0,0.2);
+    height: 600px;
+}
+
+.dp{
+ border-radius: 60%;
+ border: solid gray 10px;
+ }
+
+ .name{
+    color: aqua;
+    font-size: 52px;
+    text-transform: uppercase;
+}
+
+
+
+
+.info{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 400;
+    letter-spacing:5px;
+}
+.about{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+    
+}
+.img{
+    display: block;
+}
+.heading{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.name2{
+    font-size: 32px;
+    font-family: 'Oswald' , sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+.pera1{
+    font-size: 24px;
+    color: black;
+    font-weight: 200;
+    font-style: initial;
+
+
+
+}
