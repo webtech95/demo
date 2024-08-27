@@ -1,0 +1,308 @@
+
+
+*{ margin: 5px 5px;
+    padding: 0%;
+    box-sizing: border-box;}
+
+#poster{background-image: url(images/beautiful-japanese-forest-scene.jpg);
+height: 600px;
+background-size: cover;
+}
+.focus{
+    background-color: rgba(0, 0,0,0.2);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.focus h2{color: rgb(220, 57, 28);
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+}
+.dp{
+    border-radius: 60%;
+    border: solid gray 10px;
+     width: 200px;
+     height: 200px;
+   
+}
+
+#main-manu{
+        padding: 50px 0;
+}       
+
+.info{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 400;
+    letter-spacing:5px;
+}
+.about{
+    display: block;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 3;
+}
+  
+.perent-main-manu{
+    display: flex;
+        gap: 40px;
+}
+
+.Child-main-pera{
+    font-family: 'Oswald', sans-serif;
+}
+
+.pera1{
+    font-size: 12px;
+    color: #888888;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Oswald, sans-serif;
+    line-height: 26.25px;
+}
+
+.pera2{
+    font-size: 20px;
+    color: #101010    ;
+    font-weight: 700;
+    font-family: Rambla, sans-serif;
+    line-height: 35px;
+}
+
+.pera3{
+    font-size: 15px;
+    color: #888888;
+    font-weight: 400;
+    font-style: initial;
+    font-family: Rambla, sans-serif;
+    margin: 0 0 20px;
+    line-height: 26.25px;
+}
+
+.child-main-details{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 30px;
+        font-family: Rambla, sans-serif;
+        line-height: 26.25px;
+}
+
+.child-main-details p{
+        font-size: 15px;
+        color: #888888;
+        font-weight: 200;
+        padding:  0 0 20px;  
+        text-transform: capitalize;
+        font-weight: 700;
+}
+
+.child-main-details b{
+        color: #101010;
+}
+.about-button a{
+    text-decoration: none;
+    padding: 15px 32px;
+    line-height: 20px;
+    border: 1px #101010 solid;
+    border-radius: 80px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Rambla, sans-serif;
+    text-transform: capitalize;
+}
+.about-button1{
+    background-color: black;
+    color: white;
+}
+.about-button2{
+    color: #101010;
+}
+.about-button1:hover{
+    background-color: white;
+    color: #101010;
+}
+.about-button2:hover{
+    background-color: #101010;
+    color: white;
+}
+#skills{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-family: Rambla, sans-serif;
+    color: #888888;
+    background-color:rgb(247,247,247);
+    
+}
+.perent-about-skill-Abilities{
+    font-size: 12px;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.perent-about-skills-my-skills{
+    color: #101010;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.perent-about-skills{
+    display: flex;
+}
+.child-about-skills{
+font-family: 'Rambla', sans-serif;
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #888888;
+margin: 0 0 20px;
+width: 50%;
+margin-right: 50px;
+}
+.child-about-skills-pera8{
+    margin-bottom: 20px;
+}
+/* .child-skills-title p{ 
+    width: 50%;
+}*/
+
+
+#service{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service-heading{
+    font-family: Oswald, sans-serif;
+    color: #888888;
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 26.25px;
+    font-weight: 400;
+    text-transform: uppercase; 
+}
+.service-heading2{
+    font-family: Oswald, sans-serif;
+    color: #101010;
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 52.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.perent-service-logo1{
+    display: flex;
+    font-family: Rambla, sans-serif;
+    
+}
+.perent-service-logo1 h1{
+    font-size: 18px;
+    color: #101010;
+}
+.perent-service-logo1 p{
+    font-size: 15px;
+    color: #888;
+}
+.child-service-laptop{
+    width: 33%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #ececec;
+}
+.child-service-lightbulb{
+    width: 33%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #ececec;
+}
+.child-service-camera{
+    width: 33%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #ececec;
+}
+.peresnt-service-logo2{
+    display: flex;
+    font-family: Rambla, sans-serif;   
+}
+.peresnt-service-logo2 h1{
+    font-size: 18px;
+    color: #101010;
+}
+.peresnt-service-logo2 p{
+    font-size: 15px;
+    color: #888;
+}
+.child-logo2-tv{
+    width: 33%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #ececec;
+}
+.child-logo2-mobile{
+    width: 33%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #ececec;
+}
+.child-logo2-layer{
+    width: 33%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid #ececec;
+}
+.about-reference{
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+}
+.about-reference h4{
+    color: #888;
+    font-size: 12px;
+    letter-spacing: 5px;
+    line-height: 26.25px;
+    font-weight: 400;
+}
+.about-reference h2{
+    color: #101010;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    line-height: 52.5px;
+}
+#References{
+    background-color: #f7f7f7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+   
+}
+.perent-reference{
+    display: flex;
+}
+.perent-reference1{
+    background-image: url(images/01.jpg);
+}
+.child-reference1 :hover{
+    background-color: black;
+    opacity: 40%;
+   
+}
