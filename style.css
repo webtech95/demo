@@ -1,9 +1,8 @@
-
-
 *{ margin: 5px 5px;
     padding: 0%;
-    box-sizing: border-box;}
-
+    box-sizing: border-box;
+}
+/* Backgroup-image-container */
 #poster{background-image: url(images/beautiful-japanese-forest-scene.jpg);
 height: 600px;
 background-size: cover;
@@ -15,23 +14,27 @@ background-size: cover;
     align-items: center;
     justify-content: center;
 }
-.focus h2{color: rgb(220, 57, 28);
+.focus h2{
+    color: #fff;
     font-size: 32px;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
 }
 .dp{
     border-radius: 60%;
     border: solid gray 10px;
-     width: 200px;
-     height: 200px;
-   
+    width: 200px;
+    height: 200px;
+    position: relative;
 }
-
+/* Information-about-me */
 #main-manu{
         padding: 50px 0;
 }       
-
 .info{
     display: block;
     font-family: 'Oswald', sans-serif;
@@ -50,16 +53,14 @@ background-size: cover;
     font-weight: bolder;
     line-height: 3;
 }
-  
+/* Perent-container */
 .perent-main-manu{
     display: flex;
         gap: 40px;
 }
-
 .Child-main-pera{
     font-family: 'Oswald', sans-serif;
 }
-
 .pera1{
     font-size: 12px;
     color: #888888;
@@ -69,7 +70,6 @@ background-size: cover;
     font-family: Oswald, sans-serif;
     line-height: 26.25px;
 }
-
 .pera2{
     font-size: 20px;
     color: #101010    ;
@@ -77,7 +77,6 @@ background-size: cover;
     font-family: Rambla, sans-serif;
     line-height: 35px;
 }
-
 .pera3{
     font-size: 15px;
     color: #888888;
@@ -87,7 +86,7 @@ background-size: cover;
     margin: 0 0 20px;
     line-height: 26.25px;
 }
-
+/* Child-container */
 .child-main-details{
         display: flex;
         gap: 50px;
@@ -95,7 +94,6 @@ background-size: cover;
         font-family: Rambla, sans-serif;
         line-height: 26.25px;
 }
-
 .child-main-details p{
         font-size: 15px;
         color: #888888;
@@ -104,7 +102,6 @@ background-size: cover;
         text-transform: capitalize;
         font-weight: 700;
 }
-
 .child-main-details b{
         color: #101010;
 }
@@ -135,13 +132,13 @@ background-size: cover;
     background-color: #101010;
     color: white;
 }
+/* My skills */
 #skills{
     padding-top: 50px;
     padding-bottom: 40px;
     font-family: Rambla, sans-serif;
     color: #888888;
     background-color:rgb(247,247,247);
-    
 }
 .perent-about-skill-Abilities{
     font-size: 12px;
@@ -176,16 +173,23 @@ margin-right: 50px;
 .child-about-skills-pera8{
     margin-bottom: 20px;
 }
-/* .child-skills-title p{ 
+.child-skills-progase-bar{
     width: 50%;
-}*/
-
-
+}
+.peresent1{
+    position: absolute;
+    right : 35px;
+}
+.prograse-bar1{
+    width: 400px;
+    height: 5px;
+    background-color: #101010;
+}
+/* My services */
 #service{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
 .service-heading{
     font-family: Oswald, sans-serif;
     color: #888888;
@@ -204,6 +208,7 @@ margin-right: 50px;
     font-weight: 500;
     text-transform: uppercase;
 }
+/* Service-container-1 */
 .perent-service-logo1{
     display: flex;
     font-family: Rambla, sans-serif;
@@ -238,6 +243,7 @@ margin-right: 50px;
     padding: 30px;
     border: 2px solid #ececec;
 }
+/* Service-container-2 */
 .peresnt-service-logo2{
     display: flex;
     font-family: Rambla, sans-serif;   
@@ -271,6 +277,13 @@ margin-right: 50px;
     padding: 30px;
     border: 2px solid #ececec;
 }
+/* My-reference */
+#References{
+    background-color: #f7f7f7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+}
 .about-reference{
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -289,20 +302,171 @@ margin-right: 50px;
     font-weight: 500;
     line-height: 52.5px;
 }
-#References{
-    background-color: #f7f7f7;
+/* My-reference-container */
+.perent-reference{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.perent-reference h2{
+    font-family: Rambla, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1;
+}
+.perent-reference h3{
+    font-family: Rambla, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1;
+}
+.child-reference1,.child-reference2,.child-reference3{
+    width: 90%;
+    position: relative;
+}
+.perent-reference img{
+    width: 90%;
+    display: block;
+}
+.child-refer1, .child-refer2, .child-refer3{
+    width: 90%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    opacity: 0;
+    transition: 0.3s;
+}
+.child-refer1:hover{
+    opacity: 1;
+}
+.child-refer2:hover{
+    opacity: 1;
+}
+.child-refer3:hover{
+    opacity: 1;
+}
+
+/* Creativity */
+#Creativity{
     padding-top: 60px;
     padding-bottom: 60px;
-   
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-left: 20px;
 }
-.perent-reference{
+.about-creativity h4{
+    color: #888888;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26.25px;
+    font-family: Oswald, sans-serif;
+}
+.about-creativity h2{
+    color: #101010;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 52.25px;
+    font-family: Oswald, sans-serif;
+}
+/* perent-creativity-container-1 */
+.perent-creative{
+    width: 100%;
+    height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.perent-reference1{
-    background-image: url(images/01.jpg);
+.perent-creative h3{
+    font-family: Rambla, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+} 
+.perent-creative p{
+    font-family: Rambla, sans-serif;
+    font-size: 13px;
+    color: #cccccc;
+    letter-spacing: 1px;
 }
-.child-reference1 :hover{
-    background-color: black;
-    opacity: 40%;
-   
+.child-creative1, .child-creative2, .child-creative3{
+    width: 90%;
+    position: relative;
+}
+.perent-creative img{
+    width: 90%;
+    display: block;
+}
+.child-creative-pera1, .child-creative-pera2, .child-creative-pera3{
+    width: 90%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    opacity: 0;
+    transition: 0.3s;
+}
+.child-creative-pera1:hover{
+    opacity: 1;
+}
+.child-creative-pera2:hover{
+    opacity: 1;
+}
+.child-creative-pera3:hover{
+    opacity: 1;
+}
+/* perent-creativity-container-2 */
+.perent-creative2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.perent-creative2 h3{
+    font-family: Rambla, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+} 
+.perent-creative2 p{
+    font-family: Rambla, sans-serif;
+    font-size: 13px;
+    color: #cccccc;
+    letter-spacing: 1px;
+}
+.child-creative4, .child-creative5, .child-creative6{
+    width: 90%;
+    position: relative;
+}
+.perent-creative2 img{
+    width: 90%;
+    display: block;
+}
+.child-creative-pera4, .child-creative-pera5, .child-creative-pera6{
+    width: 90%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    opacity: 0;
+    transition: 0.3s;
+}
+.child-creative-pera4:hover{
+    opacity: 1;
+}
+.child-creative-pera5:hover{
+    opacity: 1;
+}
+.child-creative-pera6:hover{
+    opacity: 1;
 }
